@@ -6,3 +6,34 @@ body {
 a {
   color: #00B7FF;
 }
+#bg-img{
+background: url("../images/cinema.jpg");
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+min-height: 130%;
+min-width: 1024px;
+width: 110%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+
+}
+#info > h1{
+  color:white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.border{
+ border-radius: 40px;
+ color:rgb(0, 132, 255);
+}
+#info{
+  height:200px;
+  width: 200px;
+margin:auto;
+margin-top:200px;
+
+}
+

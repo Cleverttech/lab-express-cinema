@@ -1,0 +1,24 @@
+<a href="/movies">Go back</a> 
+<h1 style="font-weight:bold;">{{data.title}}</h1>
+
+<div class="col-12">
+ <div class="row">
+ <div class= "col-lg-4">
+        <img src="{{data.image}}" alt=""></a>
+   </div>
+     <div class=" col-lg-6 mx-auto">
+      <h2 style="font-weight:bold;">{{data.title}}</h2>
+      <h4>{{data.director}}</h4>
+     
+        <ul>
+         {{!-- {{#each data.stars}} --}}
+         <li>{{data.stars}}</li>
+         {{!-- {{/each}} --}}
+        </ul>
+        <p>{{data.description}}</p>
+
+        <p>{{data.showtimes}}</p>
+     </div>
+ </div>
+   
+</div>
