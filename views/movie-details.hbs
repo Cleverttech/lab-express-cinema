@@ -11,9 +11,9 @@
       <h4>{{data.director}}</h4>
      
         <ul>
-         {{!-- {{#each data.stars}} --}}
-         <li>{{data.stars}}</li>
-         {{!-- {{/each}} --}}
+         {{#each data.stars}}
+         <li>{{this}}</li>
+         {{/each}}
         </ul>
         <p>{{data.description}}</p>
 
